@@ -1,11 +1,55 @@
+:root {
+  --background-color-1: #202225;
+  --background-color-2: #010101;
+  --primary-color: #cb9bd5;
+  --secondary-color: #938f9e;
+  --primary-color-hover: #b866c8;
+  --primary-font: "Playfair Display", serif;
+  --secondary-font: "Poppins", sans-serif;
+}
+body {
+  background-color: var(--background-color-2);
+  font-family: var(--secondary-font);
+}
+.hero {
+  background-color: var(--background-color-1);
+  padding: 80px 110px;
+}
+.navbar a {
+  color: var(--secondary-color);
+}
+.navbar a:hover {
+  color: #ffff;
+}
+.navbar-nav .active {
+  color: #ffff !important;
+}
 h1 {
-  font-family: "Playfair Display", serif;
-  text-align: center;
+  color: var(--primary-color);
+  font-family: var(--primary-font);
+  font-size: 80px;
 }
-.github-icon {
-  text-align: center;
-  font-size: 40px;
+h2 {
+  color: var(--secondary-color);
+  line-height: 1.5;
+  font-size: 22px;
 }
-.github-icon:hover {
-  color: blueviolet;
+h3 {
+  color: var(--secondary-color);
+  font-size: 34px;
+}
+.btn {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  font-size: 18px;
+  padding: 15px 30px;
+}
+.btn:hover {
+  background-color: var(--primary-color-hover);
+}
+.main-image {
+  max-width: 450px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
