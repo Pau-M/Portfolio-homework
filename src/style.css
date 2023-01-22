@@ -4,7 +4,7 @@
   --primary-color: #cb9bd5;
   --secondary-color: #938f9e;
   --primary-color-hover: #b866c8;
-  --primary-font: "Playfair Display", serif;
+  --primary-font: "Roboto", sans-serif;
   --secondary-font: "Poppins", sans-serif;
 }
 body {
@@ -41,11 +41,15 @@ h3 {
 .btn {
   background-color: var(--primary-color);
   border-color: var(--primary-color);
+  color: var(--background-color-1);
   font-size: 18px;
   padding: 15px 30px;
+  transition: all 200ms ease-in-out;
 }
 .btn:hover {
-  background-color: var(--primary-color-hover);
+  background-color: var(--background-color-1);
+  border-color: var(--primary-color);
+  color: var(--primary-color);
 }
 .main-image {
   max-width: 450px;
