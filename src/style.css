@@ -103,7 +103,13 @@ h3 {
   border-color: var(--primary-color);
   color: var(--background-color-2);
 }
-
+.medias {
+  margin: 100px auto;
+}
+.i-contact {
+  color: var(--primary-color);
+  font-size: 30px;
+}
 @media (max-width: 575px) {
   body {
     text-align: center;
@@ -130,8 +136,7 @@ h3 {
   }
   .title {
     font-size: 28px;
-    margin: 0;
-    padding: 30px;
+    margin-bottom: 20px !important;
   }
   .content_img {
     max-width: 300px;
