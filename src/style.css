@@ -108,6 +108,54 @@ h3 {
   color: var(--primary-color);
   font-size: 30px;
 }
+/* About section*/
+.about-section {
+  padding: 50px 130px;
+}
+.paulina-photo {
+  filter: grayscale(100%) contrast(122%);
+}
+.about,
+p {
+  color: #ffff;
+  line-height: 2;
+}
+.skill-section {
+  background-color: var(--background-color-1);
+  padding: 80px 250px;
+}
+.skill-icon {
+  color: var(--primary-color);
+  font-size: 50px;
+  margin: 0;
+  transition: all 200ms ease-in-out;
+}
+.skill-level {
+  transition: all 200ms ease-in-out;
+  visibility: hidden;
+}
+.skill-icon:hover + .skill-level {
+  visibility: visible;
+}
+.fa-html5:hover {
+  color: #ff5722;
+}
+.fa-css3-alt:hover {
+  color: #0070ba;
+}
+.fa-square-js:hover {
+  color: #da9b27;
+}
+.fa-bootstrap:hover {
+  color: #523a76;
+}
+.fa-python:hover {
+  color: #4784b4;
+}
+.fa-react:hover {
+  color: #55cff0;
+}
+
 @media (max-width: 575px) {
   body {
     text-align: center;
