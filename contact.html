@@ -81,29 +81,98 @@
         </div>
       </div>
     </nav>
-    <div class="container medias">
+
+    <div class="container contact-section">
       <div class="row">
-        <div class="col-3">
-          <a href="#" target="_blank" title="mail"
-            ><i class="fa-solid fa-envelope i-contact"></i
-          ></a>
+        <div class="col">
+          <h2 class="title mb-4">Contact me</h2>
+          <h3 class="mb-5">Let's get in touch</h3>
+          <div class="contacts">
+            <a
+              href="mailto:mozga.paulina@gmail.com"
+              target="_blank"
+              title="mail"
+              ><i class="fa-solid fa-envelope i-contact"></i>
+              mozga.paulina@gmail.com
+            </a>
+            <a href="#" title="discord">
+              <i class="fa-brands fa-discord i-contact"></i> Pau#3573</a
+            >
+            <a href="https://github.com/Pau-M" target="_blank" title="github"
+              ><i class="fa-brands fa-github i-contact"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/paulina-mozga-4a05a2234/"
+              target="_blank"
+              title="linkedin"
+              ><i class="fa-brands fa-linkedin i-contact"></i
+            ></a>
+          </div>
         </div>
-        <div class="col-3">
-          <a href="#" target="_blank" title="linkedin"
-            ><i class="fa-brands fa-linkedin i-contact"></i
-          ></a>
-        </div>
-        <div class="col-3">
-          <a href="#" target="_blank" title="github"
-            ><i class="fa-brands fa-github i-contact"></i
-          ></a>
-        </div>
-        <div class="col-3">
-          <a href="#" target="_blank" title="discord"
-            ><i class="fa-brands fa-discord i-contact"></i
-          ></a>
+        <div class="col">
+          <form
+            method="post"
+            action="sendFormEmail.php"
+            class="border border-secondary-subtle p-4 rounded"
+            style="color: var(--secondary-color)"
+          >
+            <div class="mb-3">
+              <label
+                for="your-name"
+                class="form-label"
+                style="color: var(--secondary-color)"
+                >Your name</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="your-name"
+                autocomplete="off"
+              />
+            </div>
+            <div class="mb-3">
+              <label
+                for="your-email"
+                class="form-label"
+                style="color: var(--secondary-color)"
+                >Your Email</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="your-email"
+                placeholder="name@example.com"
+              />
+            </div>
+            <div class="mb-3">
+              <label
+                for="your-message"
+                class="form-label"
+                style="color: var(--secondary-color)"
+                >Your message</label
+              >
+              <textarea
+                class="form-control"
+                id="your-message"
+                rows="6"
+              ></textarea>
+              <button type="submit" class="btn btn-outline-light mt-3">
+                Submit
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </div>
+    <footer>
+      <p class="text-center mt-5">
+        <small>
+          This website was coded by Paulina Mozga, and is
+          <a href="https://github.com/Pau-M/Portfolio-homework" target="_blank">
+            open-sourced
+          </a></small
+        >
+      </p>
+    </footer>
   </body>
 </html>
