@@ -11,7 +11,7 @@ body {
   font-family: var(--secondary-font);
 }
 hr {
-  color: var(--primary-color);
+  border-top: solid 2px var(--primary-color);
 }
 .navbar a {
   color: var(--secondary-color);
@@ -165,7 +165,7 @@ p {
 }
 .hobby-section {
   background-color: var(--background-color-1);
-  padding: 80px 100px;
+  padding: 80px 80px;
 }
 .hobbies {
   display: flex;
@@ -295,9 +295,13 @@ footer .social-links a:hover {
   }
   h2 {
     font-size: 18px;
+    margin-bottom: 20px;
   }
   h3 {
     font-size: 25px;
+  }
+  p {
+    font-size: 16px;
   }
   .main-image {
     display: none;
@@ -315,11 +319,76 @@ footer .social-links a:hover {
     display: block;
     margin: 0 auto;
   }
-  .summary-button {
-    display: flex;
-    justify-content: center;
-  }
+
   .button-2 {
+    width: 250px;
+  }
+  /*about section*/
+  .about-section {
+    padding: 50px 40px;
+  }
+  .paulina-photo {
+    width: 200px;
+    padding-bottom: 10px;
+  }
+  .skill-section {
+    padding: 50px 40px 20px 40px;
+  }
+  .skill-icon {
+    font-size: 40px;
+  }
+  .story-section {
+    padding: 50px 40px;
+    text-align: left;
+  }
+  .title-2 {
+    font-size: 20px;
+  }
+  .timeline {
+    font-size: 18px;
+  }
+  .hobby-section {
+    padding: 40px;
+  }
+  .hobbies {
+    flex-wrap: wrap;
+  }
+  .hobby {
+    margin-bottom: 20px;
+    padding-top: 20px;
+    width: 120px;
+    height: 120px;
+  }
+  .hobby p {
+    font-size: 10px;
+  }
+  .hobby-icon {
+    font-size: 25px;
+  }
+  .cat-smile {
+    width: 35px;
+  }
+  /*portfolio section*/
+  .portfolio-section {
+    padding: 80px 30px;
+  }
+  .photo {
     width: 300px;
+  }
+  .portfolio-img {
+    width: 300px;
+  }
+  .button-portfolio {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+  /*contact section*/
+  .contact-section {
+    padding: 80px 30px;
+  }
+  .contacts {
+    text-align: left;
+    padding-left: 15px;
+    margin-bottom: 20px;
   }
 }

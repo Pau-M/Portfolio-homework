@@ -84,9 +84,9 @@
 
     <div class="container contact-section">
       <div class="row">
-        <div class="col">
+        <div class="col-md-6">
           <h2 class="title mb-4">Contact me</h2>
-          <h3 class="mb-5">Let's get in touch</h3>
+          <h3 class="mb-4">Let's get in touch</h3>
           <div class="contacts">
             <a
               href="mailto:mozga.paulina@gmail.com"
@@ -112,12 +112,11 @@
             >
           </div>
         </div>
-        <div class="col">
+        <div class="col-md-6">
           <form
             method="POST"
             action="https://formsubmit.co/mozga.paulina@gmail.com"
             class="border border-secondary-subtle p-4 rounded"
-            style="color: var(--secondary-color)"
           >
             <div class="mb-3">
               <input
@@ -129,9 +128,10 @@
               <input
                 type="hidden"
                 name="_autoresponse"
-                value="Thank You for Your message.<br/>
-              I will answer as soon as possible<br/>
-              Regards,<br/>Paulina Mozga"
+                value="Thank You for Your message. 
+              I will answer as soon as possible. 
+              Regards, 
+              Paulina Mozga"
               />
               <label
                 for="your-name"
@@ -178,7 +178,11 @@
                 id="your-message"
                 rows="6"
               ></textarea>
-              <button type="submit" class="btn btn-outline-light mt-3">
+              <button
+                type="submit"
+                class="btn btn-outline-light mt-3"
+                title="Send message"
+              >
                 Submit
               </button>
             </div>
