@@ -114,12 +114,13 @@
         </div>
         <div class="col">
           <form
-            method="post"
-            action="sendFormEmail.php"
+            method="POST"
+            action="https://formsubmit.co/mozga.paulina@gmail.com"
             class="border border-secondary-subtle p-4 rounded"
             style="color: var(--secondary-color)"
           >
             <div class="mb-3">
+              <input type="hidden" name="_subject" value="New submission!" />
               <label
                 for="your-name"
                 class="form-label"
@@ -131,6 +132,7 @@
                 class="form-control"
                 id="your-name"
                 autocomplete="off"
+                required
               />
             </div>
             <div class="mb-3">
@@ -145,6 +147,8 @@
                 class="form-control"
                 id="your-email"
                 placeholder="name@example.com"
+                autocomplete="off"
+                required
               />
             </div>
             <div class="mb-3">
