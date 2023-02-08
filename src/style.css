@@ -44,7 +44,7 @@ h3 {
   display: block;
   margin: 0 auto;
 }
-.button-1 {
+.button-pink {
   background-color: var(--primary-color);
   border-color: var(--primary-color);
   color: var(--background-color-1);
@@ -52,12 +52,12 @@ h3 {
   padding: 15px 30px;
   transition: all 400ms ease-in-out;
 }
-.button-1:hover {
+.button-pink:hover {
   background-color: var(--background-color-1);
   border-color: var(--primary-color);
   color: var(--primary-color);
 }
-.summarize {
+.projects-overview {
   padding: 50px 110px;
 }
 .title {
@@ -89,7 +89,7 @@ h3 {
   visibility: visible;
   opacity: 0.7;
 }
-.button-2 {
+.button-long {
   background-color: var(--background-color-2);
   border-color: var(--primary-color);
   color: var(--primary-color);
@@ -98,7 +98,7 @@ h3 {
   transition: all 400ms ease-in-out;
   width: 31%;
 }
-.button-2:hover {
+.button-long:hover {
   background-color: var(--primary-color);
   border-color: var(--primary-color);
   color: var(--background-color-2);
@@ -154,7 +154,7 @@ p {
 .story-section {
   padding: 100px 130px;
 }
-.title-2 {
+.title-small {
   font-size: 25px;
   color: var(--primary-color);
   font-weight: bold;
@@ -215,7 +215,7 @@ p {
   color: var(--primary-color);
   font-size: 16px;
   padding: 15px 30px;
-  transition: all 300ms ease-in-out;
+  transition: all 400ms ease-in-out;
 }
 .button-portfolio:hover {
   background-color: var(--primary-color);
@@ -245,9 +245,6 @@ p {
 .i-contact:hover {
   border: solid 1px var(--primary-color);
 }
-ul {
-  list-style: none;
-}
 .contacts {
   display: flex;
   flex-direction: column;
@@ -273,7 +270,7 @@ footer .social-links a {
   padding: 7px 11px;
   border-radius: 50%;
   font-size: 18px;
-  transition: all 100ms ease-in-out;
+  transition: all 200ms ease-in-out;
 }
 
 footer .social-links a:hover {
@@ -305,7 +302,7 @@ footer .social-links a:hover {
   .main-image {
     display: none;
   }
-  .summarize {
+  .projects-overview {
     padding: 50px 0;
   }
   .title {
@@ -318,8 +315,7 @@ footer .social-links a:hover {
     display: block;
     margin: 0 auto;
   }
-
-  .button-2 {
+  .button-long {
     width: 250px;
   }
   /*about section*/
@@ -340,7 +336,7 @@ footer .social-links a:hover {
     padding: 50px 40px;
     text-align: left;
   }
-  .title-2 {
+  .title-small {
     font-size: 20px;
   }
   .timeline {
